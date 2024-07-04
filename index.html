@@ -23,15 +23,19 @@
             <div class="side">
                 <form class="form" method="get" action="index.html">
 
+                    <label class="label" for="name">Nome completo</label>
                     <input class="form-field field" type="text" name="name" id="name" placeholder="Nome completo * " autocomplete="on" value="">
                     <span class="required"></span>
-
+                    
+                    <label class="label" for="email">Email</label>
                     <input class="form-field field" type="email" name="email" id="email" placeholder="Email * " autocomplete="on" value="">
                     <span class="required"></span>
-
-                    <input class="form-field field" type="tel" name="number" id="number" placeholder="Telefone * " autocomplete="on" value="">
+                    
+                    <label class="label" for="phone">Telefone</label>
+                    <input class="form-field field" type="tel" name="phone" id="phone" placeholder="Telefone * 99-99999-9999" autocomplete="on" value="" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
                     <span class="required"></span>
- 
+                     
+                    <label class="label" for="message">Message</label>
                     <textarea class="form-field textarea" name="message" id="message" rows="8" cols="30" placeholder="Mensagem *"  value=""></textarea>
                     <span class="required"></span>
 

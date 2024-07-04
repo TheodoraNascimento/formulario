@@ -5,8 +5,7 @@ const required = document.querySelectorAll('.required')
 const submit = document.querySelector('.submit')
 console.log(forms)
 console.log(required)
-// console.log(submit)
-// console.log(forms[0].value)
+
 
 form.addEventListener('submit', (submit) => {
     forms.forEach(function(field, index){
@@ -17,20 +16,6 @@ form.addEventListener('submit', (submit) => {
 
     })
 
-
-// addEventListener("click", function(event){
-//     event.preventDefault()
-//   });
-
-    // form.forEach(function(field, index){ 
-    //     if(form[index].value === ""){
-    //         console.log(form[index].value)
-    //         invalid(field)
-            
-    //     }
-        
-
-    // })
 
 
 function validation(index){
@@ -47,27 +32,3 @@ function validation(index){
        }
     }
      
-  
-        
-       
-
-    // required.innerHTML = 'campo obrigatório'
-
-
-
-// question.forEach(function(element, index){
-//     addOrRemoveActive(element, index);
-
-// })
-
-
-
-// function addOrRemoveActive(element, index){
-//     element.addEventListener('click', () => {
-
-
-// document.querySelector("form").addEventListener("submit", myFunction);
-
-// function myFunction() {
-//   alert("The form was submitted");
-// }
