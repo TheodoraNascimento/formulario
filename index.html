@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <main>
+        <section class="section">
+            <div class="description">
+                <div class="titles">
+                    <h2>FICOU COM DÚVIDA?</h2> 
+                    <h2>NOS MANDE UMA MENSAGEM!</h2>
+                </div>
+                <p class="text">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            </div>
+            <div class="side">
+                <form class="form" method="get" action="index.html">
+
+                    <input class="form-field field" type="text" name="name" id="name" placeholder="Nome completo * " autocomplete="on" value="">
+                    <span class="required"></span>
+
+                    <input class="form-field field" type="email" name="email" id="email" placeholder="Email * " autocomplete="on" value="">
+                    <span class="required"></span>
+
+                    <input class="form-field field" type="tel" name="number" id="number" placeholder="Telefone * " autocomplete="on" value="">
+                    <span class="required"></span>
+ 
+                    <textarea class="form-field textarea" name="message" id="message" rows="8" cols="30" placeholder="Mensagem *"  value=""></textarea>
+                    <span class="required"></span>
+
+                    <p>*campos obrigatórios</p>
+
+                    <input class="submit" type="submit" id="submit" value="Enviar">
+
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
